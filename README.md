@@ -1,2 +1,3 @@
-# uvv_bd1_si1n
-1° PSET da disciplina Banco de Dados I
+# PSET
+Aluno: Matheus Gregório Muniz Arcanjo  
+Professor: Abrantes Araujo Silva Filho  
