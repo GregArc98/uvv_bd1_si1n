@@ -42,12 +42,6 @@ lc_ctype                   'pt_BR.UTF-8'
 allow_connections          true;
 
 
--- Comentário referente à criação do banco de dados "uvv".
-
-COMMENT ON DATABASE        uvv
-
-IS                       'Criação do banco de dados "uvv".';
-
 -- Conexão ao banco de dados criado.
 
 \c                          uvv;
@@ -87,6 +81,13 @@ SHOW                        SEARCH_PATH;
 ALTER USER                  matheus_gregorio_muniz_arcanjo
 
 SET SEARCH_PATH TO          lojas, "$user", public;
+
+
+-- Comentário referente ao banco de dados "uvv".
+
+COMMENT ON DATABASE        uvv
+
+IS                       'Banco de dados utilizado para o PSET';
 
 
 -- Criação da tabela "produtos" no esquema "lojas".
