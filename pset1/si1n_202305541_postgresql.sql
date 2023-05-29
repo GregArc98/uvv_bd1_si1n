@@ -1,12 +1,12 @@
 
--- Remover usuário "matheus_gregorio_muniz_arcanjo" caso já esteja presente no sistema.
-
-DROP USER IF EXISTS         "matheus_gregorio_muniz_arcanjo";
-
-
 -- Remover banco de dados "uvv" caso já esteja presente no sistema.
 
 DROP DATABASE IF EXISTS     "uvv";
+
+
+-- Remover usuário "matheus_gregorio_muniz_arcanjo" caso já esteja presente no sistema.
+
+DROP USER IF EXISTS         "matheus_gregorio_muniz_arcanjo";
 
 
 -- Criação do usuário "matheus_gregorio_muniz_arcanjo".
@@ -40,6 +40,13 @@ lc_collate                  'pt_BR.UTF-8'
 lc_ctype                   'pt_BR.UTF-8'  
 
 allow_connections          true;
+
+
+-- Comentário referente à criação do banco de dados "uvv".
+
+COMMENT ON DATABASE        uvv
+
+IS                         'Criação do banco de dados "uvv".'                          
 
 
 -- Conexão ao banco de dados criado.
