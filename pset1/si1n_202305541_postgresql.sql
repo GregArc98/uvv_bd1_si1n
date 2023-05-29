@@ -52,9 +52,7 @@ allow_connections          true;
 
 -- Criação do esquema "lojas".
 
-CREATE                      SCHEMA 
-
-IF NOT EXISTS               lojas
+CREATE SCHEMA               lojas
 
 AUTHORIZATION               matheus_gregorio_muniz_arcanjo;
 
