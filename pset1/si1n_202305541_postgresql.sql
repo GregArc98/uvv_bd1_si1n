@@ -46,7 +46,7 @@ allow_connections          true;
 
 COMMENT ON DATABASE        uvv
 
-IS                         'Criação do banco de dados "uvv".'                          
+IS                         'Criação do banco de dados "uvv".';                          
 
 
 -- Conexão ao banco de dados criado.
