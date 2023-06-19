@@ -42,9 +42,6 @@ lc_ctype                   'pt_BR.UTF-8'
 allow_connections          true;
 
 
--- Comentário referente ao banco de dados "uvv"
-
-
 -- Conexão ao banco de dados criado.
 
 \c                          uvv;
