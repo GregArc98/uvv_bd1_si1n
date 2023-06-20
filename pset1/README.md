@@ -12,7 +12,7 @@ Abaixo encontra-se o projeto lógico que foi recriado:
 ## Softwares Utilizados
 
 * SQL Power Architect 
-* Emacs               
+* VS Code               
 * PostgreSQL         
 * Linha de Comando
   
