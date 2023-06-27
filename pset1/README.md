@@ -1,8 +1,8 @@
-# PSET 1
+# Pset 1
 
 ## Objetivo
 
-O objetivo deste PSET é desenvolver um projeto que envolve a implementação de um banco de dados no PostgreSQL com base em um diagrama relacional e responder um questionário de 15 perguntas relacionadas ao conteúdo estudado.
+O objetivo deste Pset é desenvolver um projeto que envolve a implementação de um banco de dados no PostgreSQL com base em um diagrama relacional e responder um questionário de 15 perguntas relacionadas ao conteúdo estudado.
 
 ## Projeto Lógico
 Abaixo encontra-se o projeto lógico que foi recriado:
